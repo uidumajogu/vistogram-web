@@ -1,0 +1,94 @@
+.register-container {
+    width: 800px;
+    height: 550px;
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    border: 0.5px solid #E0E5F6;
+    border-radius: 5px;
+    padding: 40px;
+  }
+
+  .register-message-form {
+    display: flex;
+    flex-direction: row;
+  }
+
+.register-form {
+    width: 350px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-message {
+    padding-right: 40px;
+    width: 450px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.register-name-logo{
+    margin: 20px !important;
+    cursor: pointer;
+}
+
+.register-message-content {
+    text-align: left;
+}
+
+.register-tnc {
+    text-align: left;
+    margin: -20px 0 0 0;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    padding: 2px;
+    color: #253061;
+}
+
+.register-tnc-checkbox {
+    margin: 0 !important;
+}
+
+.register-tnc-error {
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0 20px 10px 2px;
+    margin-top: -10px;
+    text-align: left;
+}
+
+.register-form-divider {
+    margin-bottom: 20px !important;
+}
+
+@media only screen and (max-width: 1000px) {
+    .register-message  {
+        display: none;
+    }
+
+    .register-message-header{
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+    }
+
+    .register-container {
+        width: 330px;
+        padding: 40px 0 40px 0;
+    }
+
+    .register-form {
+        width: 330px;
+        padding: 20px;
+    }
+}

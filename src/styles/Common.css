@@ -1,0 +1,25 @@
+.input-icon {
+    color: grey;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.input {
+    margin-bottom: 20px !important;
+}
+
+.auth-button {
+    width: 55% !important;
+    text-transform: none !important;
+    float: right;
+}
+
+.auth-forgot {
+    text-transform: none !important;
+    font-size: 12px !important;
+    float: left;
+}
+
+.auth-button-row {
+    width: 100%;
+}

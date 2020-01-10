@@ -1,0 +1,12 @@
+.auth-body {
+    text-align: center;
+    color: #2A3545;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+  }

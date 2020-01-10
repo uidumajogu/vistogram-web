@@ -1,0 +1,32 @@
+
+.bottombar {
+    width: 100%;
+    color: grey;
+    padding: 20px 50px 20px 20px;
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.bottombar-cr {
+    margin: 0 0 0 100px;
+}
+
+.bottombar-tnc {
+    font-size: 10px !important;
+    font-weight: bold !important;
+    padding: 0 20px 0 0 !important;
+    margin: 0 !important;
+}
+
+@media only screen and (max-width: 1000px) {
+    .bottombar-cr {
+        margin: 0 0 0 0;
+    }
+
+    .bottombar {
+        justify-content: center;
+        padding: 20px;
+    }
+}
